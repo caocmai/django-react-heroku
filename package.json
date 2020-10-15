@@ -8,9 +8,6 @@
     "dev": "webpack --config webpack.config.js --watch --mode development",
     "build": "webpack --config webpack.config.js --mode production",
   },
-  "engines": {
-    "node": "14.13.1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
