@@ -4,4 +4,4 @@ This project is based on [here](https://github.com/zachtylr21/django-react-start
 The major achievement of this app is to deploy a Django+React project to Heroku. It is currently live on [Heroku](https://cm-react-test6.herokuapp.com/)
 
 ## Resources Used
-*[How to Serve a React Single-Page App with Django](https://dev.to/zachtylr21/how-to-serve-a-react-single-page-app-with-django-1a1l)
+* [How to Serve a React Single-Page App with Django](https://dev.to/zachtylr21/how-to-serve-a-react-single-page-app-with-django-1a1l)
