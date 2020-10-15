@@ -3,3 +3,8 @@ __pycache__
 env/
 frontend/static/frontend/
 *.sqlite3
+.vscode
+env/
+env
+.env/
+.env
