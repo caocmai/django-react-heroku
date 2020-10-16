@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <div>Hello, World!</div>
-      <img src={logo} alt="Logo" />
+      <img src={logo} className="testing" alt="Logo" />
       <img src={test} alt="TEST image" />
       <Button bsStyle="primary">Primary</Button>{' '}
       <Button type="button" class="btn btn-primary">Secondary</Button>{' '}
