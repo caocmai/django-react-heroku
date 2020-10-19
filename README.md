@@ -1,7 +1,7 @@
 # Django+React Deployed To Heroku
 This project is based on [here](https://github.com/zachtylr21/django-react-starter) which I used to modify and add the ability to apply CSS, view images along with text to the React app portion of the app when using a [webpack](https://webpack.js.org/).
 
-The major achievement of this app is to deploy a Django+React project to Heroku. It is currently live on [Heroku](https://cm-react-test6.herokuapp.com/)
+The major achievement of this app is successful deployment of a Django+React project to Heroku. It is currently live on [Heroku](https://cm-react-test6.herokuapp.com/)
 
 ## Prerequisites
 Must have [Django v3.1.1](https://docs.djangoproject.com/en/3.1/topics/install/) and [Node.js v12.19.0](https://nodejs.org/en/) installed, preferably in a virtual environment(virtualENV or pipENV)
