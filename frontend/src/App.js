@@ -8,7 +8,7 @@ import makeschool from "./makeschool.png"
 const App = () => {
   return (
     <div>
-      <h1>Hello, World and Make School!</h1>
+      <h1>Hello, World and Make School! React+Django to Heroku</h1>
       <img src={logo} className="testing" alt="Logo" />
       <br></br>
       <hr></hr>
