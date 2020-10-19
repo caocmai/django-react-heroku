@@ -5,6 +5,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = {
   entry: {
     frontend: "./frontend/src/index.js",
+    backend: './frontend/src/index.js'
   },
   output: {
     path: path.resolve("./frontend/static/frontend/"),

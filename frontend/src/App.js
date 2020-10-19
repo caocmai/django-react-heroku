@@ -2,21 +2,27 @@ import React from "react";
 import logo from "./logo.svg";
 import test from "./test.png";
 import { Button } from 'react-bootstrap'
+import makeschool from "./makeschool.png"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <div>
-      <div>Hello, World!</div>
+      <h1>Hello, World and Make School!</h1>
       <img src={logo} className="testing" alt="Logo" />
-      <img src={test} alt="TEST image" />
+      <br></br>
+      <hr></hr>
+      <h2>Test Image</h2>
+      <img src={makeschool} alt="TEST image" />
+      <hr></hr>
+      <h2>Test Bootstrap Buttons</h2>
       <Button bsStyle="primary">Primary</Button>{' '}
       <Button type="button" class="btn btn-primary">Secondary</Button>{' '}
       <Button variant="success">Success</Button>{' '}
       <Button variant="warning">Warning</Button>{' '}
 
-      <button type="button" class="btn btn-primary">Primary BOotStrap</button>
-<button type="button" class="btn btn-secondary">Secondary BOotstap</button>
+      <button type="button" class="btn btn-primary">Primary BootStrap</button>
+<button type="button" class="btn btn-secondary">Secondary Bootstap</button>
 
     </div>
 
