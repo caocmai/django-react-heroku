@@ -4,10 +4,10 @@ This project is based on [here](https://github.com/zachtylr21/django-react-start
 The major achievement of this app is to deploy a Django+React project to Heroku. It is currently live on [Heroku](https://cm-react-test6.herokuapp.com/)
 
 ## Prerequisites
-Must have Django 3.1.1 and NodeJS 12.19.0 installed, preferably in a virtual environment(virtualENV or pipENV)
+Must have Django v3.1.1 and NodeJS v12.19.0 installed, preferably in a virtual environment(virtualENV or pipENV)
 
 ## To Run Locally
-Note: All bash commands should be executed from the root of this project
+Note: All bash commands should be executed at the root of this project
 ```
 $ git clone https://github.com/caocmai/django-react-heroku.git
 $ npm install
