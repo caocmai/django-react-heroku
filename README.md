@@ -32,7 +32,7 @@ $ heroku buildpacks:add --index 1 heroku/nodejs
 $ heroku buildpacks:add --index 2 heroku/python
 ```
 
-Alternatively, you can find your app's build packs under the Settings option within your app console on Heroku.com
+Alternatively, you can find your app's build packs under the Settings option within your app's console on `heroku.com` and add the necessary build packs there.
 
 ### Screenshot (From Heroku)
 ![](demo.png)
