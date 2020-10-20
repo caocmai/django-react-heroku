@@ -9,12 +9,12 @@ Must have [Django v3.1.1](https://docs.djangoproject.com/en/3.1/topics/install/)
 ## To Run Locally
 Note: All bash commands should be executed at the root of this project.
 ```
-$ git clone https://github.com/caocmai/django-react-heroku.git
 $ pip install -r requirements.txt
 $ npm install
 $ npm run dev
 $ python3 manage.py runserver
 ```
+Go to your browser and in the address bar type in: `http://127.0.0.1:8000/`
 
 ## To Upload Project to Your Heroku
 I'm assuming you know how to deploy a simple Django project to Heroku. Below are added Heroku deployment instructions to deploy a Djano+React project.
