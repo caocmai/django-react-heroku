@@ -7,7 +7,8 @@ The major achievement of this app is successful deployment of a Django+React pro
 Must have [Django v3.1.1](https://docs.djangoproject.com/en/3.1/topics/install/) and [Node.js v12.19.0](https://nodejs.org/en/) installed, preferably in a virtual environment(virtualENV or pipENV)
 
 ## To Run Locally
-Note: All bash commands should be executed at the root of this project.
+After you clone the project, navigate to the root of the project and run the following commands into the terminal:
+
 ```
 $ pip install -r requirements.txt
 $ npm install
