@@ -7,14 +7,32 @@ The major achievement of this app is successful deployment of a Django+React pro
 Must have [Django v3.1.1](https://docs.djangoproject.com/en/3.1/topics/install/) and [Node.js v12.19.0](https://nodejs.org/en/) installed, preferably in a virtual environment(virtualENV or pipENV)
 
 ## To Run Locally
-Note: All bash commands should be executed at the root of this project
+Note: All bash commands should be executed at the root of this project.
 ```
 $ git clone https://github.com/caocmai/django-react-heroku.git
-$ npm install
 $ pip install -r requirements.txt
+$ npm install
 $ npm run dev
 $ python3 manage.py runserver
 ```
+
+## To Upload Project to Your Heroku
+I'm assuming you know how to deploy a simple Django project to Heroku. Below are added Heroku deployment instructions to deploy a Djano+React project.
+
+Heroku needs a build pack of nodejs as well as python so when you run  `$ heroku buildpack` you should see something like 
+```
+1. heroku/nodejs
+2. heroku/python
+```
+
+If you don't have something like that, to add both the build packs to your Heroku App run:
+```
+$ heroku buildpacks:add --index 1 heroku/nodejs
+$ heroku buildpacks:add --index 2 heroku/python
+```
+
+
+Alternatively, you can find your app's build packs under the Settings option within your app console on Heroku.com
 
 ### Screenshot (From Heroku)
 ![](demo.png)
