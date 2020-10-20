@@ -20,7 +20,7 @@ Go to your browser and in the address bar type in: `http://127.0.0.1:8000/`
 ## To Upload Project to Your Heroku
 I'm assuming you know how to deploy a simple Django project to Heroku. Below are added instructions to deploy a Djano+React project to Heroku.
 
-To get a Django+React project deployed, Heroku needs a build pack of `nodejs` as well as `python` so when you run  `$ heroku buildpack` you should see something like 
+To get a Django+React project deployed, Heroku needs a build pack of `nodejs` as well as `python` so when you run  `$ heroku buildpack` after you created your Heroku app you should see something like:
 ```
 1. heroku/nodejs
 2. heroku/python
