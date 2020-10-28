@@ -34,6 +34,8 @@ $ heroku buildpacks:add --index 2 heroku/python
 
 Alternatively, you can find your app's build packs under the Settings option within your app's console on `heroku.com` and add the necessary build packs there.
 
+***If nothing shows on Heroku a possible error could be static collection. More [here](https://devcenter.heroku.com/articles/django-assets)
+
 ### Screenshot (From Heroku)
 ![](demo.png)
 
